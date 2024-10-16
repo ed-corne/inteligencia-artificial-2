@@ -2,6 +2,10 @@
 
 ✅ En este curso se estudiarán los conceptos básicos de las técnicas más importantes de redes neuronales artificiales, abordando su inspiración, su motivación, su funcionamiento y algunas de sus aplicaciones.
 
+🧑🏻‍🏫 Profesor: Dr. CARLOS ALBERTO VILLASENOR PADILLA
+
+🏫 Universidad de Guadalajara - CUCEI
+
 ## Actividades 💻
 
 🌳 1. [Paradigmas de aprendizaje](./A01)
@@ -15,9 +19,5 @@
 🌻 5. [Red Neuronal de una capa](./A06)
 
 ---
-
-🧑🏻‍🏫 Profesor: Dr. CARLOS ALBERTO VILLASENOR PADILLA
-
-🏫 Universidad de Guadalajara - CUCEI
 
 Edwin Cornejo 👨🏻‍💻💚.

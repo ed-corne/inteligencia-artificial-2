@@ -4,23 +4,23 @@
 
 ## Actividades 💻
 
-🌳 1. [Paradigmas de aprendizaje](./tareas/Tarea1/)
+🌳 1. [Paradigmas de aprendizaje](./A01)
 
-🌱 2. [El algoritmo del Perceptrón](./tareas/Tarea2/tarea02_cornejo_chavez_edwin_joel.pdf)
+🌱 2. [El algoritmo del Perceptrón](./A02)
 
-🌼 3. [Neurona lineal](./tareas/Tarea3/)
+🌼 3. [Neurona lineal](./A03)
 
-🌾 4. [Neurona logística](./tareas/Tarea4/EdwinJoelCornejoChavez_BusquedaNoInformada.pdf)
+🌾 4. [Neurona logística](./A04)
 
-🌻 5. [Red Neuronal de una capa](./tareas/Tarea5/tarea05_cornejo_chavez_edwin_joel.pdf)
+🌻 5. [Red Neuronal de una capa](./A05)
 
 ## Material 📗
 
 🌿 1. [...](./#)
 
-🌵 2. [Busquedas por Amplitud y Profundidad](./#)
+🌵 2. [...](./#)
 
-☘️ 3. [Algoritmos de optimizacion (Genetic Algorithm)](./#)
+☘️ 3. [...](./#)
 
 🧑🏻‍🏫 Profesor: Dr. CARLOS ALBERTO VILLASENOR PADILLA
 

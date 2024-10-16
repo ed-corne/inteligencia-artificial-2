@@ -12,20 +12,12 @@
 
 🌾 4. [Neurona logística](./A04)
 
-🌻 5. [Red Neuronal de una capa](./A05)
+🌻 5. [Red Neuronal de una capa](./A06)
 
-## Material 📗
-
-🌿 1. [...](./#)
-
-🌵 2. [...](./#)
-
-☘️ 3. [...](./#)
+---
 
 🧑🏻‍🏫 Profesor: Dr. CARLOS ALBERTO VILLASENOR PADILLA
 
 🏫 Universidad de Guadalajara - CUCEI
-
----
 
 Edwin Cornejo 👨🏻‍💻💚.

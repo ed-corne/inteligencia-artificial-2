@@ -1,8 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 from activations import *
 from dibujar import *
-
+from normalize import *
 
 class MLP:
     def __init__(self, 
@@ -58,8 +59,7 @@ class MLP:
                 self.w[l] -= (lr/p) * lg[l] @ A[l-1].T
                 self.b[l] -= (lr/p) * np.sum(lg[l])
 
-#Ejemplo chingon
-
+#---------- Ejemplo XOR -------------------
 X = np.array([[0,0,1,1], [0,1,0,1]])
 Y = np.array([[0,1,1,0]])
 
@@ -67,3 +67,43 @@ net = MLP((2,10,1))
 net.fit(X,Y)
 print(net.predict(X))
 MLP_binary_draw(X, Y, net)
+
+#--------------- Ejemplo Moons ----------------------------
+#Lectura de los datos
+moons = pd.read_csv('./WorkInClass/Multicapa/moons.csv')
+#separar ultima columna en un vector Y (vector de resultados esperados)
+Y_moons = moons["y"]
+#Crear matriz X con los datos (sin el vector Y)
+X_moons = moons.drop(["y"], axis=1)
+#Transponer la matriz X
+X_moons = X_moons.T.to_numpy()
+Y_moons = Y_moons.T.to_numpy()
+
+net = MLP((2,50,30,1))
+net.fit(X_moons,Y_moons)
+print(net.predict(X_moons))
+MLP_binary_draw2(X_moons,Y_moons, net)
+
+#--------- Ejempli Blobs ----------------
+blobs = pd.read_csv('./WorkInClass/Multicapa/blobs.csv')
+Y_blobs = blobs["y"]
+X_blobs = blobs.drop(["y"], axis=1)
+X_blobs = X_blobs.T.to_numpy()
+Y_blobs = Y_blobs.T.to_numpy()
+
+net = MLP((2,40,20,1))
+net.fit(X_blobs,Y_blobs)
+print(net.predict(X_blobs))
+MLP_binary_draw3(X_blobs,Y_blobs, net)
+
+#-------- Ejemplo Circles ----------------
+circles = pd.read_csv('./WorkInClass/Multicapa/circles.csv')
+Y_circles = circles["y"]
+X_circles = circles.drop(["y"], axis=1)
+X_circles = X_circles.T.to_numpy()
+Y_circles = Y_circles.T.to_numpy()
+
+net = MLP((2,70,40,1))
+net.fit(X_circles,Y_circles)
+print(net.predict(X_circles))
+MLP_binary_draw4(X_circles,Y_circles, net)
